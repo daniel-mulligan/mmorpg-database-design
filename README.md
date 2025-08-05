@@ -27,4 +27,5 @@ The project walks through:
 - **2NF** – Elimination of partial dependencies
 - **3NF** – Elimination of transitive dependencies
 
-Each stage of normalization is documented in `docs/normalization-process.md`.
+The project overview is documented in [project-overview.md](docs/project-overview.md).
+Each stage of normalization is documented in [normalization-process.md](docs/normalization-process.md).
