@@ -73,26 +73,6 @@ please find data entry guideline tables here: [Data Entry Guidlines](docs/data-e
 
 ---
 
-## 📂 Folder Structure
-
-mmorpg-database/
-├── README.md
-├── docs/
-│ ├── normalization-process.md
-│ ├── project-overview.md
-│ └── data-entry-guidlines.md
-├── images/
-│ ├── 1nf-repeating-groups.png
-│ └── ...
-│ └── 3nf-move-inter-data.png
-├── sql/
-│ ├── 01_create-db-and-tables.sql
-│ ├── 02_insert-sample-data.sql
-│ ├── ...
-│ └── spSendLetter.sql
-
----
-
 ## 🧩 Features Implemented
 
 - Normalized database to 3NF
