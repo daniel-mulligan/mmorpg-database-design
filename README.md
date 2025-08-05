@@ -67,8 +67,55 @@ The database was implemented using **MS SQL Server Management Studio (SSMS)** wi
    - `02_insert-sample-data.sql`
    - All other scripts as required
 
-please find data entry guideline tables here: [Data Entry Guidlines](data-entry-guidelines.md).
+please find data entry guideline tables here: [Data Entry Guidlines](docs/data-entry-guidelines.md).
 
 > ⚠️ **Note**: Only the first script requires changing the file path (`FILENAME`). No changes needed for others.
+
+---
+
+## 📂 Folder Structure
+
+mmorpg-database/
+├── README.md
+├── docs/
+│ ├── normalization-process.md
+│ ├── project-overview.md
+│ └── data-entry-guidlines.md
+├── images/
+│ ├── 1nf-repeating-groups.png
+│ └── ...
+│ └── 3nf-move-inter-data.png
+├── sql/
+│ ├── 01_create-db-and-tables.sql
+│ ├── 02_insert-sample-data.sql
+│ ├── ...
+│ └── spSendLetter.sql
+
+---
+
+## 🧩 Features Implemented
+
+- Normalized database to 3NF
+- Foreign key enforcement
+- Sample data population
+- Error logging system
+- Subscription expiry logic with triggers
+- Inventory management with constraints
+- Modular stored procedures
+- Views for simplified querying
+
+---
+
+## 💡 Reflection
+
+This project showcases end-to-end database development — from raw data modeling and normalization through to a functioning SQL system. The result is a robust, scalable, and logically sound MMORPG account management backend, demonstrating best practices in database architecture and implementation.
+
+---
+
+## 🛠️ Technologies Used
+
+- **MS SQL Server 2022**
+- **SQL Server Management Studio (SSMS)**
+- **Markdown (for documentation)**
 
 
