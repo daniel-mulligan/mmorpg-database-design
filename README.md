@@ -46,7 +46,7 @@ The database was implemented using **MS SQL Server Management Studio (SSMS)** wi
 | `spAddTime.sql` | Stored procedure to add time to a subscription |
 | `spAddChar.sql` | Stored procedure to add characters to accounts |
 | `spAddItem.sql` | Stored procedure to add items to inventory |
-| `spSendLetter.sql` | Stored procedure to simulate in-game communication |
+| `spSendLetter.sql` | Stored procedure to send a letter to accounts |
 
 ---
 
