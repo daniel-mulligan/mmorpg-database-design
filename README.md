@@ -16,6 +16,8 @@ The project is divided into two core phases:
 1. **Design Phase** – Conceptual modeling and normalization to 3NF.
 2. **Implementation Phase** – Full SQL database build in MS SQL Server using DDL, triggers, views, and stored procedures.
 
+please find more detailed overview here: [Project Overview](docs/project-overview.md).
+
 ---
 
 ## 🧠 Phase 1: Database Design & Normalization
@@ -64,6 +66,8 @@ The database was implemented using **MS SQL Server Management Studio (SSMS)** wi
    - `01_create-db-and-tables.sql` *(Update file path to your own machine!)*
    - `02_insert-sample-data.sql`
    - All other scripts as required
+
+please find data entry guideline tables here: [Data Entry Guidlines](data-entry-guidelines.md).
 
 > ⚠️ **Note**: Only the first script requires changing the file path (`FILENAME`). No changes needed for others.
 
