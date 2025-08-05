@@ -36,17 +36,18 @@ The database was implemented using **MS SQL Server Management Studio (SSMS)** wi
 
 | File Name | Description |
 |-----------|-------------|
-| `01_create-db-and-tables.sql` | Creates the database and table structures |
-| `02_insert-sample-data.sql` | Adds sample data to each table |
-| `03_create-views.sql` | Generates views for simplified access |
-| `04_trigger-deactivate-expired.sql` | Trigger to deactivate expired accounts |
-| `05_trigger-log-inactive.sql` | Trigger to log errors for inactive accounts |
-| `06_create-indexes.sql` | Adds indexes to optimize performance |
-| `spRegister.sql` | Stored procedure to register new accounts |
-| `spAddTime.sql` | Stored procedure to add time to a subscription |
-| `spAddChar.sql` | Stored procedure to add characters to accounts |
-| `spAddItem.sql` | Stored procedure to add items to inventory |
-| `spSendLetter.sql` | Stored procedure to send a letter to accounts |
+| Create DB and Tables.sql | Creates the database and table structures |
+| Insert Sample Data.sql | Adds sample data to each table |
+| Create Views.sql | Generates views for simplified access |
+| Trigger DeactivateAccountOnExpiry.sql | Trigger to deactivate expired accounts |
+| Trigger LogErrorForInactiveAccount.sql | Trigger to log errors for inactive accounts |
+| Indexes.sql | Adds indexes to optimize performance |
+| Stored Procedure spRegister.sql | Stored procedure to register new accounts |
+| Stored Procedure spAddTime.sql	| Stored procedure to add time to a subscription |
+| Stored Procedure spAddChar.sql	| Stored procedure to add characters to accounts |
+| Stored Procedure spAddItem.sql	| Stored procedure to add items to inventory |
+| Stored Procedure spSendLetter.sql	| Stored procedure to send a letter to accounts |
+
 
 ---
 
