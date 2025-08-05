@@ -1,7 +1,7 @@
 # 🗃️ MMORPG Database System (Design + Implementation)
 
 **Author:** Daniel Mulligan  
-**Module:** Database Management & Design  
+**Modules:** Database Management & Design  
 **Lecturer:** Mahomed Hoosen Goolam Nabee  
 **Campus:** Eduvos – Tyger Valley  
 **Date:** October 2024  
@@ -22,15 +22,7 @@ The project is divided into two core phases:
 
 The design process followed a structured normalization flow from unstructured data to fully normalized relational models.
 
-🔹 [Normalization Process Documentation](docs/normalization-process.md)  
-🔹 [Final Normalized Tables & Structure](docs/final-tables.md)  
-🔹 [ER Diagram](docs/erd.png)
-
-### 📂 Related Files
-
-- `docs/normalization-process.md` – Detailed breakdown of 0NF → 3NF  
-- `images/` – Visual diagrams for each normalization step  
-- `docs/final-tables.md` – Table structure, sample data, and constraints
+🔹 [Normalization Process Documentation](docs/normalization-process.md) – Detailed breakdown of 0NF → 3NF  
 
 ---
 
